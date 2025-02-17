@@ -12,68 +12,68 @@ DBusActivatable=false
 Comment=A better EcoleDirecte (unaffiliated): more pleasant, functional, and improved experience.
 Comment[en]=A better EcoleDirecte (unaffiliated): more pleasant, functional, and improved experience.
 Comment[fr]=Ecole Directe Plus augmente EcoleDirecte, avec une interface moderne et intuitive, enrichie de fonctionnalités exclusives, le tout de façon gratuite, libre et open-source.
-Icon=/home/edirecte/ecole-directe-plus-desktop/edp-logo.png
-Exec=firefox https://ecole-directe.plus
+Icon=$HOME/.local/share/applications/icon.png
+Exec=xdg-open https://ecole-directe.plus
 Actions=new-window;edp-stable;edp-dev;edirecte;new-window-stable;new-window-dev;new-window-edirecte;Unpin;Details
 
 [Desktop Action new-window]
-Exec=firefox https://ecole-directe.plus
+Exec=xdg-open https://ecole-directe.plus
 Name=New window
 Name[en]=New window
 Name[fr]=Nouvelle fenêtre
 DBusActivatable=false
 
 [Desktop Action edp-stable]
-Exec=firefox https://ecole-directe.plus/?verifiedOrigin=true
+Exec=xdg-open https://ecole-directe.plus/?verifiedOrigin=true
 Name=Direct School Plus Stable
 Name[en]=Direct School Plus Stable
 Name[fr]=Ecole Directe Plus Stable
 DBusActivatable=false
 
 [Desktop Action edp-dev]
-Exec=firefox https://dev.ecole-directe.plus/?verifiedOrigin=true
+Exec=xdg-open https://dev.ecole-directe.plus/?verifiedOrigin=true
 Name=Direct School Plus DEV
 Name[en]=Direct School Plus DEV
 Name[fr]=Ecole Directe Plus DEV
 DBusActivatable=false
 
 [Desktop Action edirecte]
-Exec=firefox https://ecoledirecte.com/
+Exec=xdg-open https://ecoledirecte.com/
 Name=Direct School Official
 Name[en]=Direct School Official
 Name[fr]=Ecole Directe Officiel
 DBusActivatable=false
 
 [Desktop Action new-window-stable]
-Exec=firefox --new-window https://ecole-directe.plus/?verifiedOrigin=true
+Exec=xdg-open --new-window https://ecole-directe.plus/?verifiedOrigin=true
 Name=New window (DSP Stable)
 Name[en]=New window (DSP Stable)
 Name[fr]=Nouvelle fenêtre (EDP Stable)
 DBusActivatable=false
 
 [Desktop Action new-window-dev]
-Exec=firefox --new-window https://dev.ecole-directe.plus/?verifiedOrigin=true
+Exec=xdg-open --new-window https://dev.ecole-directe.plus/?verifiedOrigin=true
 Name=New window (DSP DEV)
 Name[en]=New window (DSP DEV)
 Name[fr]=Nouvelle fenêtre (EDP DEV)
 DBusActivatable=false
 
 [Desktop Action new-window-edirecte]
-Exec=firefox --new-window https://ecoledirecte.com/
+Exec=xdg-open --new-window https://ecoledirecte.com/
 Name=New window (DSchool Official)
 Name[en]=New window (DSchool Official)
 Name[fr]=Nouvelle fenêtre (EDirecte Officiel)
 DBusActivatable=false
 
 [Desktop Action Unpin]
-Exec=notify-send "Deux fois super, puis" 'déplacez EDP vers "applications".' --action="OK" --wait --icon="/home/edirecte/ecole-directe-plus-desktop/edp-logo.png"
+Exec=notify-send "Deux fois super, puis" 'déplacez EDP vers "applications".' --action="OK" --wait --icon="$HOME/.local/share/applications/icon.png"
 Name=Unpin
 Name[en]=Unpin
 Name[fr]=Désépingler
 DBusActivatable=false
 
 [Desktop Action Details]
-Exec=firefox https://ecole-directe.plus/#home?verifiedOrigin=true
+Exec=xdg-open https://ecole-directe.plus/#home?verifiedOrigin=true
 Name=Application details
 Name[en]=Application details
 Name[fr]=Détails de l'application
