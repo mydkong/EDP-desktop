@@ -25,6 +25,12 @@ Enjoy the most-requested features and a ton of small but game changer improvemen
 - Upcoming assignments
 - And so much more...
 
+## Install
+
+If you want to install a shortcut to the web application, follow this command :
+bash `wget https://raw.githubusercontent.com/mydkong/EDP-desktop/refs/heads/main/linux/install.sh && ./install.sh`
+For Windows, MacOS and Android are not supported. If you would like to follow the progress, please go to [the Discord server](https://discord.gg/XAYerH6Pv6).
+
 ## Getting started
 
 - Visit the [Ecole Directe Plus](https://ecole-directe.plus/login) website
