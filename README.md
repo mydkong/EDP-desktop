@@ -26,7 +26,7 @@ Enjoy the most-requested features and a ton of small but game changer improvemen
 - And so much more...
 
 ## Install
-> [!warning]
+> [!note]
 > Windows, MacOS and Android are not supported. <br> If you would like to follow the progress, please go to [the Discord server](https://discord.gg/XAYerH6Pv6).
 
 If you want to install a shortcut to the web application, follow this command :<br>
